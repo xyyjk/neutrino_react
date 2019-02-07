@@ -1,0 +1,33 @@
+{
+  "name": "neutrino_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xyyjk/neutrino_react.git"
+  },
+  "keywords": [],
+  "author": "xyyjk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xyyjk/neutrino_react/issues"
+  },
+  "homepage": "https://github.com/xyyjk/neutrino_react#readme",
+  "devDependencies": {
+    "@neutrinojs/react": "^9.0.0-rc.0",
+    "babel-plugin-transform-jsx-url": "~1.0.1",
+    "neutrino": "^9.0.0-rc.0",
+    "webpack": "^4.29.3",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  },
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  }
+}
